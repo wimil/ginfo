@@ -109,7 +109,7 @@ class Raid
     /**
      * @return $this
      */
-    public function setCount(int $count): self
+    public function setCount($count): self
     {
         $this->count = $count;
 
